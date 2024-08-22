@@ -1,0 +1,73 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height:400px;
+}
+
+h1 {
+    text-align: center;
+    color: #8e44ad;
+}
+
+textarea {
+    width: 470px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8e44ad;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #732d91;
+}
+
+.note {
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+}
+
+#notesContainer{
+    margin-right: 20px;
+}
